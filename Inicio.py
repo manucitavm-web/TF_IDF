@@ -7,6 +7,8 @@ from nltk.stem import SnowballStemmer
 
 st.title("Demo de TF-IDF con Preguntas y Respuestas")
 
+image= Image.open("Ingles.jpg")
+
 st.write("""
 Cada línea se trata como un **documento** (puede ser una frase, un párrafo o un texto más largo).  
 ⚠️ Los documentos y las preguntas deben estar en **inglés**, ya que el análisis está configurado para ese idioma.  
