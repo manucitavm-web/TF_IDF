@@ -9,7 +9,7 @@ from nltk.stem import SnowballStemmer
 st.title("Demo de TF-IDF con Preguntas y Respuestas")
 
 # 👉 Imagen desde tu computador
-st.image("imagen.png", caption="Ejemplo de TF-IDF", use_container_width=True)
+st.image("Ingles.jpg", caption="Ejemplo de TF-IDF", use_container_width=True)
 
 st.write("""
 Cada línea se trata como un **documento** (puede ser una frase, un párrafo o un texto más largo).  
